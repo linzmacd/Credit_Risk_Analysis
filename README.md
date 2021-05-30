@@ -34,6 +34,6 @@ The balanced accuray scores and classification reports for the six machine learn
 
 ## Summary
 
-The ensemble machine learning methods outperform the statistical oversampling and undersampling methods, both having f1 scores over 0.9. Of the two ensemble methods, the Easy Ensemble Adaboost classifier has the higher balanced accuracy score of 0.093 and higher precision and recall scores than the Balanced Random Forest classifier, making it the best performing model we tested.
+The ensemble machine learning methods outperform the statistical oversampling and undersampling methods, both having f1 scores over 0.9. Of the two ensemble methods, the Easy Ensemble Adaboost classifier has the higher balanced accuracy score of 0.93 and higher precision and recall scores than the Balanced Random Forest classifier, making it the best performing model we tested.
 
 However, the Easy Ensemble Adaboost classifier isn't a perfect predictive model and has its drawbacks. While the precision for the majority class and the recall (sensitivity) for both classes are high, the precision for the minority class is still quite low at 0.09. This means that while we are catching 92% of the true high-risk credit applicants, 91% of our rejections are going to actual low-risk applicants. Though low, this precision score is still the highest among the models we tested, so we would still recommend using this model out of those tested. 
